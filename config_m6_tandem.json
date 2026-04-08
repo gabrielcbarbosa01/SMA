@@ -1,0 +1,28 @@
+{
+  "max_rand": 100000,
+  "primeiro_chegada": 1.5,
+  "filas": [
+    {
+      "id": 1,
+      "servidores": 2,
+      "capacidade": 3,
+      "chegada_min": 1,
+      "chegada_max": 4,
+      "atendimento_min": 3,
+      "atendimento_max": 4
+    },
+    {
+      "id": 2,
+      "servidores": 1,
+      "capacidade": 5,
+      "chegada_min": null,
+      "chegada_max": null,
+      "atendimento_min": 2,
+      "atendimento_max": 3
+    }
+  ],
+  "roteamento": [
+    {"de": 1, "para": 2, "prob": 1.0},
+    {"de": 2, "para": null, "prob": 1.0}
+  ]
+}
